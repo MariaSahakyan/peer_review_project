@@ -4,113 +4,118 @@ import statsmodels.api as sm
 import os
 from io import StringIO
 
-#  Load Data 
-df1 = pd.read_csv("df_regression.csv")
 
-#  Preprocessing 
-df1['pub_year_scaled'] = df1['publication_year'] - df1['publication_year'].min() + 1
+def main():
+    #  Load Data 
+    df1 = pd.read_csv("df_regression.csv")
 
-df_disclosed = df1[
-    (df1['disclosed_reviewer'] == 1)
-    & (df1['total_authors'] > 0)
-    & (df1['total_authors'] <= 20)
-    & (df1['academic_age'] <= 80)
-    & (df1['effective_words'] >= 5)
-]
+    #  Preprocessing 
+    df1['pub_year_scaled'] = df1['publication_year'] - df1['publication_year'].min() + 1
 
-df_anon = df1[
-    (df1['disclosed_reviewer'] == 0)
-    & (df1['total_authors'] > 0)
-    & (df1['total_authors'] <= 20)
-    & (df1['academic_age'] <= 80)
-    & (df1['effective_words'] >= 5)
-]
+    df_disclosed = df1[
+        (df1['disclosed_reviewer'] == 1)
+        & (df1['total_authors'] > 0)
+        & (df1['total_authors'] <= 20)
+        & (df1['academic_age'] <= 80)
+        & (df1['effective_words'] >= 5)
+    ]
 
-# Filter full dataset to match disclosed/anon filtering
-df_full = df1[
-    (df1['total_authors'] > 0)
-    & (df1['total_authors'] <= 20)
-    & (df1['academic_age'] <= 80)
-    & (df1['effective_words'] >= 5)
-]
+    df_anon = df1[
+        (df1['disclosed_reviewer'] == 0)
+        & (df1['total_authors'] > 0)
+        & (df1['total_authors'] <= 20)
+        & (df1['academic_age'] <= 80)
+        & (df1['effective_words'] >= 5)
+    ]
 
-#  Variable Groups
-tone_vars = [
-    'Weighted_Appreciative', 'Weighted_Constructive',
-    'Weighted_Questioning', 'Weighted_Critical'
-]
+    # Filter full dataset to match disclosed/anon filtering
+    df_full = df1[
+        (df1['total_authors'] > 0)
+        & (df1['total_authors'] <= 20)
+        & (df1['academic_age'] <= 80)
+        & (df1['effective_words'] >= 5)
+    ]
 
-base_vars = [
-    'gender_male', 'race_white', 'region_west', 'top_100',
-    'academic_age', 'avg_c2', 'work_count',
-    'source_nature', 'pub_year_scaled',
-    'days_received_to_accepted', 'total_authors', 'effective_words'
-]
+    #  Variable Groups
+    tone_vars = [
+        'Weighted_Appreciative', 'Weighted_Constructive',
+        'Weighted_Questioning', 'Weighted_Critical'
+    ]
 
-field_vars = [col for col in df1.columns if col.startswith("field_") and col != 'field_Medicine']
+    base_vars = [
+        'gender_male', 'race_white', 'region_west', 'top_100',
+        'academic_age', 'avg_c2', 'work_count',
+        'source_nature', 'pub_year_scaled',
+        'days_received_to_accepted', 'total_authors', 'effective_words'
+    ]
 
-#  Output Path 
-output_folder = "regression_outputs"
-os.makedirs(output_folder, exist_ok=True)
+    field_vars = [col for col in df1.columns if col.startswith("field_") and col != 'field_Medicine']
 
-#  Dataset Dictionary 
-datasets = {
-    "disclosed": df_disclosed,
-    "anon": df_anon,
-    "full": df_full
-}
+    #  Output Path 
+    output_folder = "regression_outputs"
+    os.makedirs(output_folder, exist_ok=True)
 
-#  Run Regressions 
-results_dict = {}
-meta_summary = []
-round_number = "1"
+    #  Dataset Dictionary 
+    datasets = {
+        "disclosed": df_disclosed,
+        "anon": df_anon,
+        "full": df_full
+    }
 
-for group_name, df in datasets.items():
-    for dep_var in tone_vars:
-        tone_covariates = [t for t in tone_vars if t != dep_var]
-        independent_vars = base_vars + field_vars + tone_covariates
-        all_vars = independent_vars + [dep_var]
+    #  Run Regressions 
+    results_dict = {}
+    meta_summary = []
+    round_number = "1"
 
-        df_filtered = df[all_vars].dropna()
+    for group_name, df in datasets.items():
+        for dep_var in tone_vars:
+            tone_covariates = [t for t in tone_vars if t != dep_var]
+            independent_vars = base_vars + field_vars + tone_covariates
+            all_vars = independent_vars + [dep_var]
 
-        y = pd.to_numeric(df_filtered[dep_var], errors='coerce')
-        X = df_filtered[independent_vars]
-        X = X.astype({col: int for col in X.select_dtypes(bool).columns})
-        X = X.apply(pd.to_numeric, errors='coerce')
-        X = sm.add_constant(X)
+            df_filtered = df[all_vars].dropna()
 
-        model = sm.OLS(y, X).fit(cov_type='HC1')
-        mse = ((model.resid) ** 2).mean()
-        rmse = mse ** 0.5
+            y = pd.to_numeric(df_filtered[dep_var], errors='coerce')
+            X = df_filtered[independent_vars]
+            X = X.astype({col: int for col in X.select_dtypes(bool).columns})
+            X = X.apply(pd.to_numeric, errors='coerce')
+            X = sm.add_constant(X)
 
-        # Parse summary table
-        summary_html = model.summary().tables[1].as_html()
-        summary_df = pd.read_html(StringIO(summary_html), header=0, index_col=0)[0]
-        summary_df.rename(columns={"z": "robust_z", "P>|z|": "robust_p"}, inplace=True)
-        summary_df.columns = [
-            col.replace("z", f"{dep_var}_{group_name}_z") if col == "robust_z" else col
-            for col in summary_df.columns
-        ]
+            model = sm.OLS(y, X).fit(cov_type='HC1')
+            mse = ((model.resid) ** 2).mean()
+            rmse = mse ** 0.5
 
-        key = f"{dep_var}_{group_name}"
-        results_dict[key] = summary_df
+            summary_html = model.summary().tables[1].as_html()
+            summary_df = pd.read_html(StringIO(summary_html), header=0, index_col=0)[0]
+            summary_df.rename(columns={"z": "robust_z", "P>|z|": "robust_p"}, inplace=True)
+            summary_df.columns = [
+                col.replace("z", f"{dep_var}_{group_name}_z") if col == "robust_z" else col
+                for col in summary_df.columns
+            ]
 
-        # Save result
-        filename = f"regs_{key}_round{round_number}.csv"
-        summary_df.to_csv(os.path.join(output_folder, filename))
+            key = f"{dep_var}_{group_name}"
+            results_dict[key] = summary_df
 
-        meta_summary.append({
-            "Model": key,
-            "Round": round_number,
-            "Adj_R_squared": round(model.rsquared_adj, 3),
-            "F_statistic": round(model.fvalue, 3),
-            "N_obs": int(model.nobs),
-            "MSE": round(mse, 4),
-            "RMSE": round(rmse, 4)
-        })
+            filename = f"regs_{key}_round{round_number}.csv"
+            summary_df.to_csv(os.path.join(output_folder, filename))
 
-        print(f"Completed: {key}")
+            meta_summary.append({
+                "Model": key,
+                "Round": round_number,
+                "Adj_R_squared": round(model.rsquared_adj, 3),
+                "F_statistic": round(model.fvalue, 3),
+                "N_obs": int(model.nobs),
+                "MSE": round(mse, 4),
+                "RMSE": round(rmse, 4)
+            })
 
-#  Save Metadata 
-meta_df = pd.DataFrame(meta_summary)
-meta_df.to_csv(os.path.join(output_folder, f"model_summary_metadata_round{round_number}.csv"), index=False)
+            print(f"Completed: {key}")
+
+    #  Save Metadata 
+    meta_df = pd.DataFrame(meta_summary)
+    meta_df.to_csv(os.path.join(output_folder, f"model_summary_metadata_round{round_number}.csv"), index=False)
+
+
+if __name__ == "__main__":
+    main()
+    print("Regression analysis completed.")
