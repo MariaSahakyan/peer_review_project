@@ -11,9 +11,9 @@ This repository contains the custom code and anonymized data used to produce the
 
 We are progressively uploading the code and data. At this stage, the repository includes:
 
-	Code for regression analyses
+	Code for regression analyses (03_Regression Analysis)
 
-	Code for n-gram analysis
+	Code for n-gram analysis (01_n-rigrams (mann-whitney + plots).ipynb)
 
 	Scripts to reproduce the main tables and figures in the manuscript
 
