@@ -5,7 +5,8 @@ Before we finalize, if needed, email ms13502@nyu.edu.
 
 
 This repository contains the custom code and anonymized data used to produce the figures and tables for our project on linguistic tone and bias in peer review.
-**Manuscript**: arXiv:2507.14741
+**Manuscript**: 
+arXiv:2507.14741
 
 **Current Contents**
 
