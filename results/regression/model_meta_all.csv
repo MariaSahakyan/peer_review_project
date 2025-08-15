@@ -1,0 +1,13 @@
+Model,Tone,Identity,Adj_R_squared,F_statistic,N_obs,MSE,RMSE
+Weighted_Appreciative__disclosed,Weighted_Appreciative,Disclosed,0.5564,196.038,15993,172.1510581348595,13.120634822098339
+Weighted_Constructive__disclosed,Weighted_Constructive,Disclosed,0.4393,205.8179,15993,210.31814384597396,14.50234959742641
+Weighted_Questioning__disclosed,Weighted_Questioning,Disclosed,0.3821,157.3591,15993,137.87349409817173,11.741954441155515
+Weighted_Critical__disclosed,Weighted_Critical,Disclosed,0.4458,193.9843,15993,156.11039586317443,12.494414586653287
+Weighted_Appreciative__undisclosed,Weighted_Appreciative,Undisclosed,0.4796,459.0757,60647,141.79351263046885,11.907708118293328
+Weighted_Constructive__undisclosed,Weighted_Constructive,Undisclosed,0.4088,703.9163,60647,187.47254010054,13.692061207157233
+Weighted_Questioning__undisclosed,Weighted_Questioning,Undisclosed,0.3562,570.139,60647,133.12838673800502,11.538127523043114
+Weighted_Critical__undisclosed,Weighted_Critical,Undisclosed,0.4465,765.1705,60647,157.99858559264126,12.569748827746768
+Weighted_Appreciative__fulldata,Weighted_Appreciative,Full Data,0.5005,634.7582,76640,149.16106553975092,12.213151335333192
+Weighted_Constructive__fulldata,Weighted_Constructive,Full Data,0.4188,891.6645,76640,192.76457406453292,13.883968239107036
+Weighted_Questioning__fulldata,Weighted_Questioning,Full Data,0.3617,707.3949,76640,134.29585301324053,11.588608760901394
+Weighted_Critical__fulldata,Weighted_Critical,Full Data,0.4478,937.1795,76640,157.83436982509122,12.56321494781854

@@ -1,0 +1,369 @@
+FeatureLabel,Identity,Tone,Coefficient,SE,p,Formatted
+Gender: Male,Disclosed,Weighted_Appreciative,0.0334482213714774,0.2238459922916258,0.8812181662780807,"0.033
+(0.224)"
+Race: White,Disclosed,Weighted_Appreciative,0.2767839170621646,0.2534969678760264,0.2748933970339726,"0.277
+(0.253)"
+Region: Western group,Disclosed,Weighted_Appreciative,0.3658416820832246,0.2666267970466247,0.1700287444229236,"0.366
+(0.267)"
+Affiliation rank: Top 100,Disclosed,Weighted_Appreciative,0.1863360330620921,0.2537934808436378,0.4628247899452604,"0.186
+(0.254)"
+Academic age,Disclosed,Weighted_Appreciative,-0.0331245285834161,0.0124738451360043,0.0079186551189495,"-0.033**
+(0.012)"
+Average prior impact,Disclosed,Weighted_Appreciative,0.0022869154053995,0.0060417680997998,0.7050461408766892,"0.002
+(0.006)"
+Number of prior publications,Disclosed,Weighted_Appreciative,-0.0032133714788918,0.0017726019571558,0.0698627913990155,"-0.003
+(0.002)"
+Source: Nature Comm.,Disclosed,Weighted_Appreciative,0.2441462334144338,0.4476708130020373,0.5854990658821597,"0.244
+(0.448)"
+Publication year (scaled),Disclosed,Weighted_Appreciative,0.3904433331967044,0.0803170499734037,1.1663161004815405e-06,"0.390***
+(0.080)"
+Review duration (days),Disclosed,Weighted_Appreciative,0.0007430965937473,0.0009423676795391,0.4303796801964216,"0.001
+(0.001)"
+Team size,Disclosed,Weighted_Appreciative,0.0078067249769339,0.030733700423772,0.7994863813180244,"0.008
+(0.031)"
+Review length (words),Disclosed,Weighted_Appreciative,-0.0106732865789001,0.0002958362105246,4.9545900180603344e-285,"-0.011***
+(0.000)"
+Tone covariate: Constructive,Disclosed,Weighted_Appreciative,-0.5175827716235378,0.0090979310239213,0.0,"-0.518***
+(0.009)"
+Tone covariate: Questioning,Disclosed,Weighted_Appreciative,-0.6031147478660586,0.008956199623075,0.0,"-0.603***
+(0.009)"
+Tone covariate: Critical,Disclosed,Weighted_Appreciative,-0.6424440927104178,0.009134073026977,0.0,"-0.642***
+(0.009)"
+Gender: Male,Disclosed,Weighted_Constructive,0.2340455166374857,0.2480383596722431,0.3453812636397975,"0.234
+(0.248)"
+Race: White,Disclosed,Weighted_Constructive,-0.2965938595847802,0.2730415067887943,0.2773643148207617,"-0.297
+(0.273)"
+Region: Western group,Disclosed,Weighted_Constructive,-1.6897483574533745,0.2887000779366849,4.829169073835449e-09,"-1.690***
+(0.289)"
+Affiliation rank: Top 100,Disclosed,Weighted_Constructive,-0.470617163475964,0.2763311836607476,0.0885510321117273,"-0.471
+(0.276)"
+Academic age,Disclosed,Weighted_Constructive,-0.0476538659000279,0.0138985400469885,0.0006064888846586,"-0.048***
+(0.014)"
+Average prior impact,Disclosed,Weighted_Constructive,0.0080347562464828,0.0059811649450269,0.1791609244878105,"0.008
+(0.006)"
+Number of prior publications,Disclosed,Weighted_Constructive,-0.003162134735528,0.0019641531076037,0.1074147258566549,"-0.003
+(0.002)"
+Source: Nature Comm.,Disclosed,Weighted_Constructive,-4.998519843873424,0.4826101778154272,3.879089354131071e-25,"-4.999***
+(0.483)"
+Publication year (scaled),Disclosed,Weighted_Constructive,0.5747601899932242,0.0870658489060152,4.0717636129327474e-11,"0.575***
+(0.087)"
+Review duration (days),Disclosed,Weighted_Constructive,0.0025222690448671,0.0010531656470147,0.0166230632578633,"0.003*
+(0.001)"
+Team size,Disclosed,Weighted_Constructive,-0.0046320587114817,0.0341793777930588,0.8921991463812444,"-0.005
+(0.034)"
+Review length (words),Disclosed,Weighted_Constructive,-0.0016829385393274,0.000348620412213,1.383104555227148e-06,"-0.002***
+(0.000)"
+Tone covariate: Appreciative,Disclosed,Weighted_Constructive,-0.6323344683088701,0.0091610772069133,0.0,"-0.632***
+(0.009)"
+Tone covariate: Questioning,Disclosed,Weighted_Constructive,-0.6389824252929006,0.0088100899201351,0.0,"-0.639***
+(0.009)"
+Tone covariate: Critical,Disclosed,Weighted_Constructive,-0.6232708238508043,0.0098103015850694,0.0,"-0.623***
+(0.010)"
+Gender: Male,Disclosed,Weighted_Questioning,0.0169373599761984,0.2010195426339669,0.9328518768493816,"0.017
+(0.201)"
+Race: White,Disclosed,Weighted_Questioning,-0.2754458114512595,0.2208281993362024,0.2122762336221454,"-0.275
+(0.221)"
+Region: Western group,Disclosed,Weighted_Questioning,-0.2360322602881124,0.2329538193099322,0.3109575669146642,"-0.236
+(0.233)"
+Affiliation rank: Top 100,Disclosed,Weighted_Questioning,0.4851607263327747,0.2273749921296743,0.0328634896372173,"0.485*
+(0.227)"
+Academic age,Disclosed,Weighted_Questioning,-0.0310725708106427,0.0112078661178718,0.0055646401358387,"-0.031**
+(0.011)"
+Average prior impact,Disclosed,Weighted_Questioning,-0.0051580128642558,0.0053944363845833,0.3389849842742704,"-0.005
+(0.005)"
+Number of prior publications,Disclosed,Weighted_Questioning,-0.0013120520492676,0.0015856363414062,0.40797588388569,"-0.001
+(0.002)"
+Source: Nature Comm.,Disclosed,Weighted_Questioning,-2.244922196501408,0.3929749181857044,1.1124023063873992e-08,"-2.245***
+(0.393)"
+Publication year (scaled),Disclosed,Weighted_Questioning,-0.0271564040894543,0.0711604006628957,0.70274145418792,"-0.027
+(0.071)"
+Review duration (days),Disclosed,Weighted_Questioning,0.0035943905005907,0.0008496058817294,2.3301044070759834e-05,"0.004***
+(0.001)"
+Team size,Disclosed,Weighted_Questioning,0.0674796880567549,0.0282657765088683,0.0169713284511013,"0.067*
+(0.028)"
+Review length (words),Disclosed,Weighted_Questioning,0.0003285929490632,0.0002862457805514,0.2509933804246484,"0.000
+(0.000)"
+Tone covariate: Appreciative,Disclosed,Weighted_Questioning,-0.4830265845086473,0.0080590821891423,0.0,"-0.483***
+(0.008)"
+Tone covariate: Constructive,Disclosed,Weighted_Questioning,-0.4188832120303123,0.0080752145409208,0.0,"-0.419***
+(0.008)"
+Tone covariate: Critical,Disclosed,Weighted_Questioning,-0.4297284973746209,0.0093648058717419,0.0,"-0.430***
+(0.009)"
+Gender: Male,Disclosed,Weighted_Critical,0.4179332842496559,0.213395280546083,0.0501721251202561,"0.418
+(0.213)"
+Race: White,Disclosed,Weighted_Critical,-0.2880063800091278,0.2338400218335599,0.2180841424927349,"-0.288
+(0.234)"
+Region: Western group,Disclosed,Weighted_Critical,-1.288942525243759,0.2467432519403496,1.752684305178601e-07,"-1.289***
+(0.247)"
+Affiliation rank: Top 100,Disclosed,Weighted_Critical,-0.4636076287882373,0.2305448243512591,0.0443337101518763,"-0.464*
+(0.231)"
+Academic age,Disclosed,Weighted_Critical,-0.0435884694963771,0.011809681349296,0.0002234533080026,"-0.044***
+(0.012)"
+Average prior impact,Disclosed,Weighted_Critical,0.0024983937621902,0.0063216205671299,0.6926848667339458,"0.002
+(0.006)"
+Number of prior publications,Disclosed,Weighted_Critical,-0.0024885585902895,0.0016462818970893,0.1306296409657169,"-0.002
+(0.002)"
+Source: Nature Comm.,Disclosed,Weighted_Critical,-2.839048219959684,0.4192326086065033,1.2700367839196032e-11,"-2.839***
+(0.419)"
+Publication year (scaled),Disclosed,Weighted_Critical,0.0504720215044808,0.0752062465962782,0.5021474301681172,"0.050
+(0.075)"
+Review duration (days),Disclosed,Weighted_Critical,0.0081366740648589,0.0009220977422352,1.1035281252820202e-18,"0.008***
+(0.001)"
+Team size,Disclosed,Weighted_Critical,-0.0295470834337825,0.0291605670683,0.3109384895950627,"-0.030
+(0.029)"
+Review length (words),Disclosed,Weighted_Critical,-0.002240261296005,0.0002921707806748,1.7518540923111042e-14,"-0.002***
+(0.000)"
+Tone covariate: Appreciative,Disclosed,Weighted_Critical,-0.5825825453504632,0.0077959012209668,0.0,"-0.583***
+(0.008)"
+Tone covariate: Constructive,Disclosed,Weighted_Critical,-0.4626279657192696,0.0082667302599292,0.0,"-0.463***
+(0.008)"
+Tone covariate: Questioning,Disclosed,Weighted_Critical,-0.4865698536012445,0.0090713555425492,0.0,"-0.487***
+(0.009)"
+Gender: Male,Undisclosed,Weighted_Appreciative,-0.280671202570204,0.1065876401915017,0.0084573708739037,"-0.281**
+(0.107)"
+Race: White,Undisclosed,Weighted_Appreciative,0.3644967615292157,0.1131246413110281,0.0012726313560576,"0.364**
+(0.113)"
+Region: Western group,Undisclosed,Weighted_Appreciative,0.8085582892089829,0.1197383868388448,1.4511142143194099e-11,"0.809***
+(0.120)"
+Affiliation rank: Top 100,Undisclosed,Weighted_Appreciative,0.0668066044928114,0.10974452343976,0.5426924199584737,"0.067
+(0.110)"
+Academic age,Undisclosed,Weighted_Appreciative,-0.0427922647235189,0.005787586262709,1.426892422523371e-13,"-0.043***
+(0.006)"
+Average prior impact,Undisclosed,Weighted_Appreciative,-0.0059571434773709,0.0033037494595202,0.0713652478987023,"-0.006
+(0.003)"
+Number of prior publications,Undisclosed,Weighted_Appreciative,0.0010023041359085,0.0007666605362028,0.1910892281203781,"0.001
+(0.001)"
+Source: Nature Comm.,Undisclosed,Weighted_Appreciative,-1.672093565383675,0.1479812911171496,1.3218096942806576e-29,"-1.672***
+(0.148)"
+Publication year (scaled),Undisclosed,Weighted_Appreciative,0.2292081424455913,0.0335584441272789,8.484465329416039e-12,"0.229***
+(0.034)"
+Review duration (days),Undisclosed,Weighted_Appreciative,-0.0004516323983867,0.0004411252348875,0.3059207727548769,"-0.000
+(0.000)"
+Team size,Undisclosed,Weighted_Appreciative,-0.0418824072329683,0.0134405903915296,0.0018325163009268,"-0.042**
+(0.013)"
+Review length (words),Undisclosed,Weighted_Appreciative,-0.0086381901242147,0.00014417804416,0.0,"-0.009***
+(0.000)"
+Tone covariate: Constructive,Undisclosed,Weighted_Appreciative,-0.4227679505124742,0.005089554797101,0.0,"-0.423***
+(0.005)"
+Tone covariate: Questioning,Undisclosed,Weighted_Appreciative,-0.5051135072554217,0.0049256991378029,0.0,"-0.505***
+(0.005)"
+Tone covariate: Critical,Undisclosed,Weighted_Appreciative,-0.5490689530389363,0.0048962193088282,0.0,"-0.549***
+(0.005)"
+Gender: Male,Undisclosed,Weighted_Constructive,-0.3374098322745938,0.1229279458306486,0.0060551977694613,"-0.337**
+(0.123)"
+Race: White,Undisclosed,Weighted_Constructive,0.1635723995915113,0.1287161607831161,0.203800078385309,"0.164
+(0.129)"
+Region: Western group,Undisclosed,Weighted_Constructive,-1.3466878279726386,0.1377966995904898,1.470253309519214e-22,"-1.347***
+(0.138)"
+Affiliation rank: Top 100,Undisclosed,Weighted_Constructive,-0.6388240432223498,0.1236821860006019,2.403812212607151e-07,"-0.639***
+(0.124)"
+Academic age,Undisclosed,Weighted_Constructive,-0.0609538440844652,0.0065760751303612,1.878446933397404e-20,"-0.061***
+(0.007)"
+Average prior impact,Undisclosed,Weighted_Constructive,-0.0016415698910029,0.0034995022495325,0.6390076797937224,"-0.002
+(0.003)"
+Number of prior publications,Undisclosed,Weighted_Constructive,0.0006031501870203,0.0008542912639141,0.4801731748371505,"0.001
+(0.001)"
+Source: Nature Comm.,Undisclosed,Weighted_Constructive,-6.937640716424026,0.1621282064943786,0.0,"-6.938***
+(0.162)"
+Publication year (scaled),Undisclosed,Weighted_Constructive,0.4160568711748523,0.0383524448358969,2.032822887928489e-27,"0.416***
+(0.038)"
+Review duration (days),Undisclosed,Weighted_Constructive,0.0026750292042688,0.0004959968368555,6.919902980470624e-08,"0.003***
+(0.000)"
+Team size,Undisclosed,Weighted_Constructive,-0.0484398653184539,0.015491413163681,0.0017666910119128,"-0.048**
+(0.015)"
+Review length (words),Undisclosed,Weighted_Constructive,0.0014330191259805,0.0001718285615766,7.440424820768587e-17,"0.001***
+(0.000)"
+Tone covariate: Appreciative,Undisclosed,Weighted_Constructive,-0.5589633833405808,0.0053254389368852,0.0,"-0.559***
+(0.005)"
+Tone covariate: Questioning,Undisclosed,Weighted_Constructive,-0.5736208841768875,0.0047055976349176,0.0,"-0.574***
+(0.005)"
+Tone covariate: Critical,Undisclosed,Weighted_Constructive,-0.581628061885892,0.004725615170988,0.0,"-0.582***
+(0.005)"
+Gender: Male,Undisclosed,Weighted_Questioning,-0.1755654322722349,0.1032320630185625,0.0890017689473944,"-0.176
+(0.103)"
+Race: White,Undisclosed,Weighted_Questioning,0.1707579229913899,0.1082919901470406,0.114834935441626,"0.171
+(0.108)"
+Region: Western group,Undisclosed,Weighted_Questioning,-0.2597289046577484,0.1155092764900286,0.0245408533217651,"-0.260*
+(0.116)"
+Affiliation rank: Top 100,Undisclosed,Weighted_Questioning,0.0104562621541568,0.1057364349239236,0.9212257131741272,"0.010
+(0.106)"
+Academic age,Undisclosed,Weighted_Questioning,-0.0523501481812148,0.0056062836428466,9.839082901103683e-21,"-0.052***
+(0.006)"
+Average prior impact,Undisclosed,Weighted_Questioning,-0.0029202491867011,0.0029613840119834,0.3240793360539512,"-0.003
+(0.003)"
+Number of prior publications,Undisclosed,Weighted_Questioning,0.0032480735227862,0.000727691041355,8.061889280596721e-06,"0.003***
+(0.001)"
+Source: Nature Comm.,Undisclosed,Weighted_Questioning,-3.3408954448867934,0.1430378221485368,1.1774469584634336e-120,"-3.341***
+(0.143)"
+Publication year (scaled),Undisclosed,Weighted_Questioning,0.1236295752594288,0.0323358234081328,0.0001316770483215,"0.124***
+(0.032)"
+Review duration (days),Undisclosed,Weighted_Questioning,0.0032908751177658,0.0004211560595805,5.544113582980899e-15,"0.003***
+(0.000)"
+Team size,Undisclosed,Weighted_Questioning,0.0155721234293019,0.0131440476360616,0.2361249429995213,"0.016
+(0.013)"
+Review length (words),Undisclosed,Weighted_Questioning,0.0025915703257397,0.0001518993058386,2.890252951715615e-65,"0.003***
+(0.000)"
+Tone covariate: Appreciative,Undisclosed,Weighted_Questioning,-0.4742455779041093,0.0043286916785655,0.0,"-0.474***
+(0.004)"
+Tone covariate: Constructive,Undisclosed,Weighted_Questioning,-0.4073408450578604,0.0041445107118298,0.0,"-0.407***
+(0.004)"
+Tone covariate: Critical,Undisclosed,Weighted_Questioning,-0.4302138223562392,0.0045219063731963,0.0,"-0.430***
+(0.005)"
+Gender: Male,Undisclosed,Weighted_Critical,0.0244834607807911,0.1116315490011404,0.826397786820317,"0.024
+(0.112)"
+Race: White,Undisclosed,Weighted_Critical,0.0206595079054306,0.1177248515462571,0.8606948031730981,"0.021
+(0.118)"
+Region: Western group,Undisclosed,Weighted_Critical,-1.0126799925768877,0.1263292375581386,1.0906996276146625e-15,"-1.013***
+(0.126)"
+Affiliation rank: Top 100,Undisclosed,Weighted_Critical,-0.3640058177767547,0.1149319618965451,0.0015394524627938,"-0.364**
+(0.115)"
+Academic age,Undisclosed,Weighted_Critical,-0.0600707763544671,0.0060519909642572,3.2155427024316183e-23,"-0.060***
+(0.006)"
+Average prior impact,Undisclosed,Weighted_Critical,-0.0094961374324324,0.0038188298941341,0.012894801174023,"-0.009*
+(0.004)"
+Number of prior publications,Undisclosed,Weighted_Critical,0.0020109598813838,0.0007892874596767,0.0108399367638328,"0.002*
+(0.001)"
+Source: Nature Comm.,Undisclosed,Weighted_Critical,-3.786488986721905,0.1558051608459806,1.834789646751948e-130,"-3.786***
+(0.156)"
+Publication year (scaled),Undisclosed,Weighted_Critical,-0.0183064787594363,0.0355805409475567,0.606896754737299,"-0.018
+(0.036)"
+Review duration (days),Undisclosed,Weighted_Critical,0.0097827390773176,0.0004747446719315,2.4087880221952033e-94,"0.010***
+(0.000)"
+Team size,Undisclosed,Weighted_Critical,-0.0592975933605622,0.014355742473546,3.618435939514928e-05,"-0.059***
+(0.014)"
+Review length (words),Undisclosed,Weighted_Critical,-0.0005907157051363,0.000155187834453,0.0001409722061223,"-0.001***
+(0.000)"
+Tone covariate: Appreciative,Undisclosed,Weighted_Critical,-0.6118200781094337,0.0044352572290811,0.0,"-0.612***
+(0.004)"
+Tone covariate: Constructive,Undisclosed,Weighted_Critical,-0.4901859817425936,0.0042058800393373,0.0,"-0.490***
+(0.004)"
+Tone covariate: Questioning,Undisclosed,Weighted_Critical,-0.5105836335901847,0.0046433855151861,0.0,"-0.511***
+(0.005)"
+Reviewer identity disclosed,Full Data,Weighted_Appreciative,2.1076171993149937,0.1188806490893582,2.511181981677558e-70,"2.108***
+(0.119)"
+Gender: Male,Full Data,Weighted_Appreciative,-0.2243559013095112,0.0967776026801785,0.0204350511758021,"-0.224*
+(0.097)"
+Race: White,Full Data,Weighted_Appreciative,0.3714708342316475,0.1040792300484984,0.0003581879571758,"0.371***
+(0.104)"
+Region: Western group,Full Data,Weighted_Appreciative,0.7057347846966846,0.1101273393981166,1.4710072292040002e-10,"0.706***
+(0.110)"
+Affiliation rank: Top 100,Full Data,Weighted_Appreciative,0.0697513762452667,0.101303784674744,0.4911148509707458,"0.070
+(0.101)"
+Academic age,Full Data,Weighted_Appreciative,-0.0412256516429128,0.005270239615629,5.1846780281120705e-15,"-0.041***
+(0.005)"
+Average prior impact,Full Data,Weighted_Appreciative,-0.0042535004109769,0.0029543183016977,0.1499361648675776,"-0.004
+(0.003)"
+Number of prior publications,Full Data,Weighted_Appreciative,0.0001876259884322,0.0007075135916678,0.7908625982474253,"0.000
+(0.001)"
+Source: Nature Comm.,Full Data,Weighted_Appreciative,-1.5780827676098843,0.1385871858435623,4.857984359076439e-30,"-1.578***
+(0.139)"
+Publication year (scaled),Full Data,Weighted_Appreciative,0.2600311283478245,0.0311352757774503,6.73121802430355e-17,"0.260***
+(0.031)"
+Review duration (days),Full Data,Weighted_Appreciative,-0.0001328590441198,0.0004011514539978,0.7404977835870558,"-0.000
+(0.000)"
+Team size,Full Data,Weighted_Appreciative,-0.0342119074346052,0.0123944910912899,0.0057756953361128,"-0.034**
+(0.012)"
+Review length (words),Full Data,Weighted_Appreciative,-0.0090639316857966,0.0001299841942173,0.0,"-0.009***
+(0.000)"
+Tone covariate: Constructive,Full Data,Weighted_Appreciative,-0.4466684598276444,0.004458220611104,0.0,"-0.447***
+(0.004)"
+Tone covariate: Questioning,Full Data,Weighted_Appreciative,-0.5285321602020967,0.0043259633269572,0.0,"-0.529***
+(0.004)"
+Tone covariate: Critical,Full Data,Weighted_Appreciative,-0.5712259031820409,0.0043138985701259,0.0,"-0.571***
+(0.004)"
+Reviewer identity disclosed,Full Data,Weighted_Constructive,1.661068436331626,0.1324826532058376,4.624805032349957e-36,"1.661***
+(0.132)"
+Gender: Male,Full Data,Weighted_Constructive,-0.2129295619539624,0.1103113751928142,0.0535747126708381,"-0.213
+(0.110)"
+Race: White,Full Data,Weighted_Constructive,0.0785734260231791,0.1166379997886316,0.500532562323774,"0.079
+(0.117)"
+Region: Western group,Full Data,Weighted_Constructive,-1.4218415199545542,0.1244221515056108,3.0454874699628696e-30,"-1.422***
+(0.124)"
+Affiliation rank: Top 100,Full Data,Weighted_Constructive,-0.6299520858046523,0.1130765010474383,2.5324406227299937e-08,"-0.630***
+(0.113)"
+Academic age,Full Data,Weighted_Constructive,-0.0580632154355816,0.0059510550000636,1.725235979416302e-22,"-0.058***
+(0.006)"
+Average prior impact,Full Data,Weighted_Constructive,0.0008297968923311,0.0030353990831679,0.7845663183954781,"0.001
+(0.003)"
+Number of prior publications,Full Data,Weighted_Constructive,-0.0001548739525775,0.0007861209811938,0.8438194553773587,"-0.000
+(0.001)"
+Source: Nature Comm.,Full Data,Weighted_Constructive,-6.746282657262421,0.151750993730292,0.0,"-6.746***
+(0.152)"
+Publication year (scaled),Full Data,Weighted_Constructive,0.4455489690174261,0.0350799389564302,5.84073490215505e-37,"0.446***
+(0.035)"
+Review duration (days),Full Data,Weighted_Constructive,0.0026438470815098,0.0004498502008927,4.173340958977515e-09,"0.003***
+(0.000)"
+Team size,Full Data,Weighted_Constructive,-0.0415829136961751,0.0141322139635637,0.0032565756774089,"-0.042**
+(0.014)"
+Review length (words),Full Data,Weighted_Constructive,0.0007388070883642,0.0001544651984681,1.7269788031983194e-06,"0.001***
+(0.000)"
+Tone covariate: Appreciative,Full Data,Weighted_Constructive,-0.5772408174691616,0.0046018317921867,0.0,"-0.577***
+(0.005)"
+Tone covariate: Questioning,Full Data,Weighted_Constructive,-0.5882424233799218,0.0041568923063615,0.0,"-0.588***
+(0.004)"
+Tone covariate: Critical,Full Data,Weighted_Constructive,-0.5910148429231982,0.0042672951424944,0.0,"-0.591***
+(0.004)"
+Reviewer identity disclosed,Full Data,Weighted_Questioning,0.3386591390066178,0.1081629206070225,0.0017420648648855,"0.339**
+(0.108)"
+Gender: Male,Full Data,Weighted_Questioning,-0.1369992952218083,0.0918396997198747,0.1357720544540015,"-0.137
+(0.092)"
+Race: White,Full Data,Weighted_Questioning,0.0854352666186953,0.0972495486894672,0.3796638585149758,"0.085
+(0.097)"
+Region: Western group,Full Data,Weighted_Questioning,-0.2555189152218868,0.1033977405374372,0.0134651674641271,"-0.256*
+(0.103)"
+Affiliation rank: Top 100,Full Data,Weighted_Questioning,0.0963550480878559,0.0958723457323327,0.314880071754782,"0.096
+(0.096)"
+Academic age,Full Data,Weighted_Questioning,-0.048222160908142,0.0050109501007868,6.3717115462070805e-22,"-0.048***
+(0.005)"
+Average prior impact,Full Data,Weighted_Questioning,-0.0036855712575104,0.0026005990217473,0.156424200612347,"-0.004
+(0.003)"
+Number of prior publications,Full Data,Weighted_Questioning,0.0023563088138147,0.0006612731337276,0.0003662338624693,"0.002***
+(0.001)"
+Source: Nature Comm.,Full Data,Weighted_Questioning,-3.2220982983863653,0.1324585860744956,1.0579418249897072e-130,"-3.222***
+(0.132)"
+Publication year (scaled),Full Data,Weighted_Questioning,0.0965922736168929,0.0293801483077796,0.0010101967119484,"0.097**
+(0.029)"
+Review duration (days),Full Data,Weighted_Questioning,0.0033346262230082,0.0003770511378896,9.238241182924269e-19,"0.003***
+(0.000)"
+Team size,Full Data,Weighted_Questioning,0.0253126371781195,0.0119126258390666,0.0335984714112469,"0.025*
+(0.012)"
+Review length (words),Full Data,Weighted_Questioning,0.0021039119764385,0.0001341921770089,2.1270673707537404e-55,"0.002***
+(0.000)"
+Tone covariate: Appreciative,Full Data,Weighted_Questioning,-0.4758592803184023,0.0037962209614098,0.0,"-0.476***
+(0.004)"
+Tone covariate: Constructive,Full Data,Weighted_Questioning,-0.4098186526738901,0.0036871024415648,0.0,"-0.410***
+(0.004)"
+Tone covariate: Critical,Full Data,Weighted_Questioning,-0.4301212886145749,0.0040765421283281,0.0,"-0.430***
+(0.004)"
+Reviewer identity disclosed,Full Data,Weighted_Critical,-0.1471186470950075,0.1157007230258596,0.2035349174630299,"-0.147
+(0.116)"
+Gender: Male,Full Data,Weighted_Critical,0.109493318741399,0.0989229845097521,0.2683569796519558,"0.109
+(0.099)"
+Race: White,Full Data,Weighted_Critical,-0.0431826856073195,0.1052039802942235,0.6814639400962459,"-0.043
+(0.105)"
+Region: Western group,Full Data,Weighted_Critical,-1.0886577486721385,0.1123510449058566,3.3322129936683863e-22,"-1.089***
+(0.112)"
+Affiliation rank: Top 100,Full Data,Weighted_Critical,-0.3942053483738728,0.1028808318185611,0.0001272766267376,"-0.394***
+(0.103)"
+Academic age,Full Data,Weighted_Critical,-0.0566443351488401,0.0053805042911363,6.438848196727145e-26,"-0.057***
+(0.005)"
+Average prior impact,Full Data,Weighted_Critical,-0.0063788062272782,0.003274184741523,0.0513895933772839,"-0.006
+(0.003)"
+Number of prior publications,Full Data,Weighted_Critical,0.001100817420847,0.0007113607657996,0.1217472512118725,"0.001
+(0.001)"
+Source: Nature Comm.,Full Data,Weighted_Critical,-3.588839230210909,0.143860607824006,2.322228563240301e-137,"-3.589***
+(0.144)"
+Publication year (scaled),Full Data,Weighted_Critical,-0.0015260923919674,0.0320822538283387,0.9620604424931256,"-0.002
+(0.032)"
+Review duration (days),Full Data,Weighted_Critical,0.0095074883001431,0.0004215859031851,1.291593831840195e-112,"0.010***
+(0.000)"
+Team size,Full Data,Weighted_Critical,-0.0537329177925848,0.0128637903491713,2.9529170031760716e-05,"-0.054***
+(0.013)"
+Review length (words),Full Data,Weighted_Critical,-0.0009860828742522,0.0001369132711653,5.922929605649286e-13,"-0.001***
+(0.000)"
+Tone covariate: Appreciative,Full Data,Weighted_Critical,-0.604441112902079,0.0038282123851819,0.0,"-0.604***
+(0.004)"
+Tone covariate: Constructive,Full Data,Weighted_Critical,-0.4839190797518074,0.0037473373509935,0.0,"-0.484***
+(0.004)"
+Tone covariate: Questioning,Full Data,Weighted_Critical,-0.5055101927097082,0.0041278505463553,0.0,"-0.506***
+(0.004)"
