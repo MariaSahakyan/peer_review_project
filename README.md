@@ -9,7 +9,7 @@ This repository contains the custom code and anonymized data used to produce the
 
 **Current Contents**
 
-	We are progressively uploading the code and data. At this stage, the repository includes:
+We are progressively uploading the code and data. At this stage, the repository includes:
 
 	Code for regression analyses
 
