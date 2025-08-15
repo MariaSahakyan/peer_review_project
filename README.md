@@ -1,4 +1,4 @@
-# peer_review_project
+# Disparities in Peer Review Tone and the Role of Reviewer Anonymity
 
 We are in the process of uploading the custom code and the anonymized data used to produce the figures and tables of our project. 
 Before we finalize, if needed, email ms13502@nyu.edu. 
